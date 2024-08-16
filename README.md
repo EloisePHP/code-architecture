@@ -1,0 +1,1 @@
+# Eloise code architecture library
