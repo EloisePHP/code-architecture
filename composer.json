@@ -1,0 +1,27 @@
+{
+    "name": "eloise/architecture",
+    "description": "Analyse code architecture in your project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Jaure"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eloise\\Architecture\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eloise\\Architecture\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
+    "scripts": {
+        "eloise:structure": "php src/structure-command.php"
+    }
+}
