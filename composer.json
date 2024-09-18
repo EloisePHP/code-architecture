@@ -21,7 +21,10 @@
     "require-dev": {
         "phpunit/phpunit": "^11.3"
     },
-    "scripts": {
-        "eloise:structure": "php src/structure-command.php"
+    "bin": [
+        "bin/console"
+    ],
+    "require": {
+        "symfony/console": "^7.1"
     }
 }
